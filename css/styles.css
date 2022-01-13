@@ -327,7 +327,6 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--second-title-color);
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 
@@ -338,6 +337,42 @@ img {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  margin-bottom: 16px;
+}
+
+.team-item-content {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.team-social-list {
+  display: flex;
+  justify-content: center;
+}
+
+.team-social-item + .team-social-item {
+  margin-left: 10px;
+}
+
+.team-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: var(--second-btn-color);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #afb1b8;
+}
+
+.team-social-link:hover,
+.team-social-link:focus {
+  background-color: var(--accent-color);
+  color: var(--second-btn-color);
+}
+
+.team-social-icon {
+  fill: currentColor;
 }
 
 /* -------------NAV---------------------------- */
