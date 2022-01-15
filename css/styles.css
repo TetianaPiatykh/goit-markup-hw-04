@@ -8,7 +8,7 @@
   --accent-color: #2196f3;
 }
 
-.body {
+body {
   font-family: Roboto, sans-serif;
   background-color: #e5e5e5;
 }
@@ -144,7 +144,7 @@ img {
   margin-right: 10px;
   fill: currentColor;
   box-sizing: border-box;
-  max-height: 16px;
+  /* max-height: 16px; */
 }
 
 .header-tel:hover,
